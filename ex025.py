@@ -1,0 +1,2 @@
+nome = str(input("Qual é seu nome completo?")).strip() #strip remove espaços indesejados
+print("Seu nome tem silva? {}".format("SILVA" in nome.upper)) #esta pedindo pra ver se existe Silva IN nome, poe em maiusculo e .upper pra poder digitar de qlq jeito SiLvA

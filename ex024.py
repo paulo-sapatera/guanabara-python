@@ -1,0 +1,2 @@
+cid = str(input("Em que cidade você nasceu?")).strip() #strip elimina os espaços indesejados
+print(cid[:5].upper() == "SANTO") #primeiro ele pega só as primeiras 5 casas, depois ele poe tudo em maiusculo pra verificar se tem SANTO, logo pode digitar de qlq jeito tipo SaNtO
